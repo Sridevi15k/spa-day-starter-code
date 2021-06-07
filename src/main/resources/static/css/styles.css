@@ -11,7 +11,7 @@ div {
 }
 
 h1 {
-    margin: auto;
+        margin: auto;
         width: 50%;
         padding: 10px;
         text-align: center;
@@ -19,8 +19,52 @@ h1 {
 }
 
 table {
-    margin: auto;
+            margin: auto;
             width: 50%;
             padding: 10px;
             text-align: center;
+}
+footer {
+            display: flex;
+            margin: auto;
+            width: 50%;
+            padding: 2px;
+            align: center;
+}
+.left-box {
+                float:left;
+                background: orange;
+                width:12%;
+                height: 80px;
+            }
+.middle-box{
+                float:left;
+                background: brown;
+                width:12%;
+                height: 80px;
+            }
+.right-box{
+                float:left;
+                background: yellow;
+                width:12%;
+                height: 80px;
+            }
+.left-most-box {
+                float:left;
+                background: red;
+                width:12%;
+                height: 80px;
+}
+.mid-box{
+                float:left;
+                background: green;
+                width:12%;
+                height: 80px;
+}
+
+.right-most-box {
+                float:left;
+                background: blue;
+                width:12%;
+                height: 80px;
 }
